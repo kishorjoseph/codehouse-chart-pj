@@ -18,7 +18,7 @@ Task - Create a World Population Chart using NextJS, TypeScript, Unit Testing(TD
 **UX**
 ****************
 
-![Application Screenshot](public/assets/World_Population.png "World Population By Year")
+![Application Screenshot](public/assets/World Population Chart.png "World Population chart By Year")
 
 ****************************************************************************************
 

@@ -9,7 +9,7 @@ const getSortedData = (): YearlyData[] => {
 const getTopCountries = (currentYearData: YearlyData): Country[] => {
 	return [...currentYearData.Countries]
 		.sort((a, b) => b.Population - a.Population)
-		.slice(0, 15);
+		.slice(0, 10);
 };
 
 const getBarColors = (topCountries: Country[]): Map<string, string> => {
