@@ -1,9 +1,9 @@
 
-Project Overview & Implementation details:
+**Project Overview & Implementation details:**
 
-Task - Create a World Population Chart using NextJS
+Task - Create a World Population Chart using NextJS, TypeScript, Unit Testing(TDD approach)
 
-Features Added
+**Features Added**
 
 1) World Population chart (Created without depending on any third party library for graphs)
 2) Developed using NextJS (latest version)
@@ -15,7 +15,7 @@ Features Added
 8) Color coded as per the request
 
 
-How it looks
+**UX**
 ****************
 
 ![Application Screenshot](public/assets/World_Population.png "World Population By Year")
@@ -23,15 +23,15 @@ How it looks
 ****************************************************************************************
 
 
-Tech-Stack Used for Development
+**Tech-Stack Used for Development**
 *******************************
 
 NextJS, TypeScript, Jest, React Testing Library
 
 **********************************************
 
-How to Run & Test
-*********************
+**How to Run & Test**
+*******************
 
 Prerequisites Before running the application, ensure you have:
 
@@ -41,12 +41,18 @@ npm or yarn package manager
 
 git clone [[repository-url](https://github.com/kishorjoseph/codehouse-chart-pj.git)] https://github.com/kishorjoseph/codehouse-chart-pj.git
 
-Install dependencies: npm install
+**cd to codehouse-chart-pj**
+
+Install dependencies: 
+
+**npm install**
 
 4.Start the React development server:
 
-npm run dev
+**npm run dev**
 
 http://localhost:3000/
 
-To run all the test - npm run test.
+To run all the test 
+
+**npm run test**
