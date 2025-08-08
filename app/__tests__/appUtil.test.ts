@@ -18,7 +18,7 @@ describe('appUtil', () => {
 	});
 
 	describe('getTopCountries', () => {
-		it('should return top countries by population, limited to 15', () => {
+		it('should return top countries by population, limited to 10', () => {
 			const input: YearlyData = {
 				Year: 2025,
 				Countries: [
@@ -29,7 +29,7 @@ describe('appUtil', () => {
 			};
 
 			const result = getTopCountries(input);
-			expect(result.length).toBeLessThanOrEqual(15);
+			expect(result.length).toBeLessThanOrEqual(10);
 			expect(result.map(c => c.Country)).toEqual(['Y', 'Z', 'X']);
 		});
 	});
