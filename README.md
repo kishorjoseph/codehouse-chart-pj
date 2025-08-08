@@ -39,7 +39,7 @@ Node.js (v16 or higher recommended)
 
 npm or yarn package manager
 
-git clone [[repository-url](https://github.com/kishorjoseph/codehouse-chart-pj.git)] 
+git clone [[repository-url](https://github.com/kishorjoseph/codehouse-chart-pj.git)] https://github.com/kishorjoseph/codehouse-chart-pj.git
 
 Install dependencies: npm install
 
